@@ -25,6 +25,7 @@ xcuserdata/
 # Prerequisites
 *.d
 
+
 # Compiled Object files
 *.slo
 *.lo
@@ -53,4 +54,6 @@ xcuserdata/
 # Executables
 *.exe
 *.out
+
 *.app
+
