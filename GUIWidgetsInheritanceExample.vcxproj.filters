@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Button.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\HorizontalPanel.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Label.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Panel.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\TextWidget.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\VerticalPanel.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Widget.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Button.hpp">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\HorizontalPanel.hpp">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Label.hpp">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Panel.hpp">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\TextWidget.hpp">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\VerticalPanel.hpp">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Widget.hpp">
+			<Filter>src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
