@@ -11,7 +11,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     fonts.push_back(new ofTrueTypeFont());
-    fonts.back()->load("HelveticaNeue", 32);
+    fonts.back()->load("Arial", 32);
     Panel *basePanel = new VerticalPanel(10, 10);
     
     basePanel->addWidget(new Label("hello",
