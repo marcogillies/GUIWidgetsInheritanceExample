@@ -6,8 +6,10 @@
 
 class ofApp : public ofBaseApp{
 
+    // This is a widget that contains all
+    // the other widgets of the interface
+    // it will be a panel
     std::unique_ptr<Widget> baseWidget;
-    std::vector<std::shared_ptr<ofTrueTypeFont> > fonts;
     
 	public:
 		void setup();

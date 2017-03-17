@@ -19,6 +19,9 @@ TextWidget::TextWidget(std::string _text, std::shared_ptr<ofTrueTypeFont> _font)
 TextWidget::TextWidget(std::string _text, std::shared_ptr<ofTrueTypeFont> _font, int x, int y)
 :Widget(), text(_text), font(_font)
 {
+    // sets the bounding box to be the size of
+    // the text
+    // (but sets the position to be x, y)
     boundingBox = font->getStringBoundingBox(text, 0,0);
     setPosition(x, y);
 }

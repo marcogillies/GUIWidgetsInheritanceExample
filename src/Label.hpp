@@ -13,6 +13,13 @@
 
 class ofTrueTypeFont;
 
+/*
+ *  Label is a TextWidget that simply displays
+ *  the text and does nothing else.
+ *  It uses the text and font variables of TextWidget
+ *  and implements the virtual function subClassDraw
+ *  to draw the text
+ */
 class Label : public TextWidget
 {
     

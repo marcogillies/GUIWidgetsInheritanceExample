@@ -23,6 +23,8 @@ Label::Label(std::string _text,
 {
     
 }
+
+// simply draw the text with the font
 void Label::subClassDraw(){
     font->drawString(text, 0, getHeight());
 }
