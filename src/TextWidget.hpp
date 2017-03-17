@@ -17,10 +17,10 @@ class ofTrueTypeFont;
 class TextWidget : public Widget{
 protected:
     std::string text;
-    ofTrueTypeFont *font;
+    std::shared_ptr<ofTrueTypeFont> font;
 public:
-    TextWidget(std::string _text, ofTrueTypeFont *_font);
-    TextWidget(std::string _text, ofTrueTypeFont *_font, int x, int y);
+    TextWidget(std::string _text, std::shared_ptr<ofTrueTypeFont> _font);
+    TextWidget(std::string _text, std::shared_ptr<ofTrueTypeFont> _font, int x, int y);
 };
 
 #endif /* TextWidget_hpp */

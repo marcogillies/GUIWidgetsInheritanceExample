@@ -12,7 +12,7 @@
 
 Button::Button(
     std::string _text,
-    ofTrueTypeFont *_font,
+    std::shared_ptr<ofTrueTypeFont> _font,
     std::function<void()> c,
     int _x, int _y)
 :TextWidget(_text,_font, _x, _y), callback(c)
@@ -21,7 +21,7 @@ Button::Button(
 }
 Button::Button(
     std::string _text,
-    ofTrueTypeFont *_font,
+    std::shared_ptr<ofTrueTypeFont> _font,
     std::function<void()> c)
 :Button(_text,_font, c, 0, 0)
 {

@@ -12,13 +12,13 @@
 
 
 Label::Label(std::string _text,
-             ofTrueTypeFont *_font, int _x, int _y)
+             std::shared_ptr<ofTrueTypeFont> _font, int _x, int _y)
 :TextWidget(_text,_font, _x, _y)
 {
     
 }
 Label::Label(std::string _text,
-             ofTrueTypeFont *_font)
+             std::shared_ptr<ofTrueTypeFont> _font)
 :TextWidget(_text,_font)
 {
     

@@ -17,8 +17,8 @@ class Label : public TextWidget
 {
     
 public:
-    Label(std::string _text, ofTrueTypeFont *_font, int _x, int _y);
-    Label(std::string _text, ofTrueTypeFont *_font);
+    Label(std::string _text, std::shared_ptr<ofTrueTypeFont> _font, int _x, int _y);
+    Label(std::string _text, std::shared_ptr<ofTrueTypeFont> _font);
     void subClassDraw();
 };
 

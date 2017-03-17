@@ -1,13 +1,13 @@
 #pragma once
 
 #include "ofMain.h"
-
-class Widget;
+#include <memory>
+#include "Widget.hpp"
 
 class ofApp : public ofBaseApp{
 
-    Widget * baseWidget;
-    std::vector<ofTrueTypeFont *> fonts;
+    std::unique_ptr<Widget> baseWidget;
+    std::vector<std::shared_ptr<ofTrueTypeFont> > fonts;
     
 	public:
 		void setup();

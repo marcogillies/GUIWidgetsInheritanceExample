@@ -17,10 +17,10 @@ class Button : public TextWidget
 {
     std::function<void()> callback;
 public:
-    Button(std::string _text, ofTrueTypeFont *_font,
+    Button(std::string _text, std::shared_ptr<ofTrueTypeFont> _font,
            std::function<void()> c,
            int _x, int _y);
-    Button(std::string _text, ofTrueTypeFont *_font,
+    Button(std::string _text, std::shared_ptr<ofTrueTypeFont> _font,
            std::function<void()> c);
     
     void setCallback(std::function<void()> c){

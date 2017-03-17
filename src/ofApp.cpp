@@ -10,12 +10,12 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    fonts.push_back(new ofTrueTypeFont());
+    fonts.push_back(std::make_shared<ofTrueTypeFont>());
     fonts.back()->load("Arial", 32);
     Panel *basePanel = new VerticalPanel(10, 10);
     
     basePanel->addWidget(new Label("hello",
-                                fonts.back()));
+               fonts.back()));
     
     Panel *innerPanel = new HorizontalPanel();
     
@@ -31,7 +31,7 @@ void ofApp::setup(){
     
     basePanel->addWidget(innerPanel);
     
-    baseWidget = basePanel;
+    baseWidget = unique_ptr<Widget>(basePanel);
 }
 
 //--------------------------------------------------------------
